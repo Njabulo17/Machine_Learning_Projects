@@ -8,11 +8,11 @@ Level 3 Final Capstone project
   to classify the reviews as either positive/negative sentiment.
 * In building an RNN model, we use the following architecture:
 
-     # Embedding layer 
-     # SpatialDroput1D(0.2)
-     # BatchNormalization()
-     # LSTM(32)
-     # Dense(2, activation='softmax')
+      . Embedding layer 
+      . SpatialDroput1D(0.2)
+      . BatchNormalization()
+      . LSTM(32)
+      . Dense(2, activation='softmax')
 
 * The performance of the model showed an accuracy of about 59% and this was also verified in the prediction which made correct
   prediction of about 50% for the given data.
